@@ -31,7 +31,10 @@ class videoUniverse : public ofxObject {
     void drawFBOScene();
     ofxFboObject* getFbo();
     
-    void addToRoot(ofxObject *o) { root->addChild(o); }
+    void addToRoot(ofxObject *o) {
+      root->addChild(o);
+      cout<<"addToRoot: "<< o->getTrans().z <<endl;
+    }
     void removeFromRoot(ofxObject *o) { root->removeChild(o); }
     
     int getHeight() { return height; }

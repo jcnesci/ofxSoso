@@ -21,8 +21,8 @@ void emptyApp::setup(){
   ofxRectangleObject *r = new ofxRectangleObject(40,40);
   r->setColor(255., 255., 0., 255.);
   r->isCentered = true;
-  vidUniverse->addToRoot(r);
   r->setTrans(0, 0, 10);
+  vidUniverse->addToRoot(r);
 //  scene->getRoot()->addChild(r);
 
   scene->getRoot()->addChild(vidUniverse);
