@@ -1,8 +1,10 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxScene.h"
+#include "tempScene.h"
 #include "ofxSosoRenderer.h"
+#include "videoUniverse.h"
+#include "ofxRectangleObject.h"
 
 class emptyApp : public ofBaseApp{
   
@@ -24,7 +26,8 @@ public:
   
   
 public:
-  ofxScene						*scene;
+  tempScene						*scene;
+  videoUniverse       *vidUniverse;
  
 };
 

@@ -9,12 +9,24 @@ void emptyApp::setup(){
 	//Warning: Up is up and down is down in this world.
   ofSetCurrentRenderer(ofPtr<ofBaseRenderer>(new ofxSosoRenderer(false)));
   
-  //Create a scene.
-	//The scene is a scene graph that renders objects added to its root and their children and their children's children and so on.
-	//When the render mode of the scene is set to RENDER_ALPHA_DEPTH_SORTED, it handles sorting of both transparent and opaque objects in the z-axis.
-  scene = new ofxScene(ofGetWidth(), ofGetHeight());
+  // DEV - testing creating an FBO in a scene.
+  scene = new tempScene(ofGetWidth(), ofGetHeight());
 	scene->setBackgroundColor(10, 10, 10);
   
+//  vidUniverse = new videoUniverse(1024, 768);
+//  vidUniverse->setTrans(-1024/2, -768/2, 5);
+  vidUniverse = new videoUniverse(100, 100);
+  vidUniverse->setTrans(0, 0, 5);
+  
+  ofxRectangleObject *r = new ofxRectangleObject(40,40);
+  r->setColor(255., 255., 0., 255.);
+  r->isCentered = true;
+  vidUniverse->addToRoot(r);
+  r->setTrans(0, 0, 10);
+//  scene->getRoot()->addChild(r);
+
+  scene->getRoot()->addChild(vidUniverse);
+
 }
 
 //--------------------------------------------------------------
@@ -28,8 +40,12 @@ void emptyApp::update(){
 //--------------------------------------------------------------
 void emptyApp::draw(){
   
-	//Call draw on scene, which initiates the drawing of the root object.
+	// Orig
   scene->draw();
+  
+  // New
+  vidUniverse->drawFBOScene();
+
 }
 
 //--------------------------------------------------------------
