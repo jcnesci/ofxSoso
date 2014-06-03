@@ -13,6 +13,7 @@ void emptyApp::setup(){
   scene = new tempScene(ofGetWidth(), ofGetHeight());
 	scene->setBackgroundColor(10, 10, 10);
   
+// ORIG ---
 //  vidUniverse = new videoUniverse(1024, 768);
 //  vidUniverse->setTrans(-1024/2, -768/2, 5);
   vidUniverse = new videoUniverse(100, 100);
@@ -23,7 +24,7 @@ void emptyApp::setup(){
   r->isCentered = true;
   r->setTrans(0, 0, 10);
   vidUniverse->addToRoot(r);
-//  scene->getRoot()->addChild(r);
+//  scene->getRoot()->addChild(r);      //test
 
   scene->getRoot()->addChild(vidUniverse);
 
