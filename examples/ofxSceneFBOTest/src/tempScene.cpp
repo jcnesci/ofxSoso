@@ -190,17 +190,18 @@ void tempScene::draw()
 
 void tempScene::drawNormal()
 {
-	//root->draw(defaultMaterial, defaultMatrix);	//v4.0
+//DEV_jc: why was this commented?
+	root->draw(defaultMaterial, defaultMatrix);	//v4.0
+  
     
-    
-    
-    ofPushMatrix();
-    //ofTranslate(-sceneWidth*0.5, -sceneHeight*0.5, 0);
-    ofFill();
-    ofSetColor(255,0,255);
-	ofRect(0,0,250,250);
-	ofPopMatrix();
-    
+//DEV_jc: why was this here? what's the purpose? ad why does it render above the yellow square but not the blue?
+//    ofPushMatrix();
+//    //ofTranslate(-sceneWidth*0.5, -sceneHeight*0.5, 0);
+//    ofFill();
+//    ofSetColor(255,0,255);
+//	ofRect(0,0,250,250);
+//	ofPopMatrix();
+  
     
 }
 

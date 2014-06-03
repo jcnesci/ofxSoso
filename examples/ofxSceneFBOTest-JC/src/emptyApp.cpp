@@ -14,19 +14,19 @@ void emptyApp::setup(){
 	scene->setBackgroundColor(10, 10, 10);
   
 // ORIG ---
-//  vidUniverse = new videoUniverse(1024, 768);
-//  vidUniverse->setTrans(-1024/2, -768/2, 5);
-  vidUniverse = new videoUniverse(100, 100);
-  vidUniverse->setTrans(0, 0, 5);
+  vidUniverse = new videoUniverse(1024, 768);
+  vidUniverse->setTrans(-1024/2, -768/2, 5);      //jc: doesnt change anything
+//  vidUniverse = new videoUniverse(100, 100);
+//  vidUniverse->setTrans(0, 0, 5);
   
   ofxRectangleObject *r = new ofxRectangleObject(40,40);
-  r->setColor(255., 255., 0., 255.);
-  r->isCentered = true;
+  r->setColor(55., 255., 55., 255.);
+//  r->isCentered = true;
   r->setTrans(0, 0, 10);
   vidUniverse->addToRoot(r);
 //  scene->getRoot()->addChild(r);      //test
 
-  scene->getRoot()->addChild(vidUniverse);
+  scene->getRoot()->addChild(vidUniverse);      // CHANGES NOTHING on screen: w/ or w/o, screen is same
 
 }
 
@@ -45,7 +45,7 @@ void emptyApp::draw(){
   scene->draw();
   
   // New
-  vidUniverse->drawFBOScene();
+  vidUniverse->drawFBOScene();        // display vidUni with grey BG and pink rect
 
 }
 

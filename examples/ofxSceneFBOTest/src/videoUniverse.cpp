@@ -21,25 +21,32 @@ videoUniverse::videoUniverse(int width, int height) {
     scene->setRenderMode(tempScene::RENDER_NORMAL);
 	scene->setBackgroundColor(200, 200, 200);
     scene->getRoot()->setTrans(0, 0, 0);
-    
+  
+  //WASNT COMMENTED
     root = new ofxObject();
-    root->setTrans(width/2.0, -height/2.0, 0); //Position the root at the center
+//    root->setTrans(width/2.0, -height/2.0, 2); //Position the root at the center    //OLD: this puts everything offscreen... wdh
+    root->setTrans(0, 0, 2); //Position the root at the center
     scene->getRoot()->addChild(root);
-    
+  
+  //Old rectangle drawn within vidUni.
     ofxRectangleObject *rootV = new ofxRectangleObject(250.0, 250.0);
     rootV->setColor(255., 255., 0.);
-    rootV->isCentered = true;
-    rootV->setTrans(100,100,0);
+//    rootV->isCentered = true;
+//    rootV->setTrans(100,100,0);
+    rootV->setTrans(0,0,0);
     root->addChild(rootV);
-    
+  
+  //Old - was commented.
     //following same logic as SE
     //TODO: viewports also failing
     //addViewport(0, -width/2.0, -height/2.0, -width/2.0, -height/2.0, width, height);
-    
+
+  //WASNT COMMENTED
     //Create FBO.
     fbo = new ofxFboObject(width, height, GL_RGBA);
     addChild(fbo);
-    
+  
+  //WASNT COMMENTED
     fbo->fbo->begin();
 	ofClear(255,255,255, 0);
     fbo->fbo->end();
@@ -56,16 +63,36 @@ void videoUniverse::idle(float time)
 void videoUniverse::drawFBOScene() {
     
     //scene is rendered to the FBO
-    fbo->fbo->begin();
-    
+//    fbo->fbo->begin();
+  
+  // - - - - - -
+  
+  //NEW test rect
+  
+//  ofxRectangleObject *rect = new ofxRectangleObject(80,80);
+//  rect->setColor(0., 255., 255., 255.);
+//  rect->setTrans(0, 0, 10);
+//  root->addChild(rect);
+  
+  // - - - - - -
+  
+  //WAS COMMENTED
     //TODO: setupViewports also failing
     //setupViewport(viewports[0]);
-    
-    ofEnableAlphaBlending();
-//    ofClear(140,128,128,255);
-    
+  
+
+  
+  
+ofxRectangleObject *rect = new ofxRectangleObject(80,80);
+rect->setColor(0., 255., 255., 255.);
+rect->setTrans(0, 0, 10);
+root->addChild(rect);
+
+  
+  //WASNT COMMENTED
     scene->draw(); //TODO: scene draw is breaking the fbo
-    
+
+  //WAS COMMENTED
     /*
     ofPushMatrix();
     ofTranslate(width*0.5, height*0.5, 5);
@@ -75,9 +102,10 @@ void videoUniverse::drawFBOScene() {
 	ofPopMatrix();
     */
     
-    fbo->fbo->end();
+//    fbo->fbo->end();
 }
 
+/*
 ofxFboObject* videoUniverse::getFbo() {
     return fbo;
 }
@@ -183,3 +211,4 @@ void videoUniverse::setupMultiScreen(int iScreenIndex){
 	//gluLookAt(eyeX, eyeY, dist, eyeX, eyeY, 0.0, 0.0, 1.0, 0.0);	//SOSO moved above
     
 }
+*/
