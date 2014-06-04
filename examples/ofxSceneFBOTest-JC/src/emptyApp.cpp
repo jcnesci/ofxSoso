@@ -9,24 +9,26 @@ void emptyApp::setup(){
 	//Warning: Up is up and down is down in this world.
   ofSetCurrentRenderer(ofPtr<ofBaseRenderer>(new ofxSosoRenderer(false)));
   
-  // DEV - testing creating an FBO in a scene.
+  // Creating an FBO in a scene.
   scene = new tempScene(ofGetWidth(), ofGetHeight());
 	scene->setBackgroundColor(10, 10, 10);
   
-// ORIG ---
+  // Create a universe (scene + fbo).
   vidUniverse = new videoUniverse(1024, 768);
-  vidUniverse->setTrans(-1024/2, -768/2, 5);      //jc: doesnt change anything
-//  vidUniverse = new videoUniverse(100, 100);
-//  vidUniverse->setTrans(0, 0, 5);
+  vidUniverse->setTrans(-1024/2, -768/2, 5);
   
+  // Add objects to the universe.
   ofxRectangleObject *r = new ofxRectangleObject(40,40);
-  r->setColor(55., 255., 55., 255.);
-//  r->isCentered = true;
+  r->setColor(55., 255., 55., 255.);      //green
+  // r->isCentered = true;
   r->setTrans(0, 0, 10);
   vidUniverse->addToRoot(r);
-//  scene->getRoot()->addChild(r);      //test
-
-  scene->getRoot()->addChild(vidUniverse);      // CHANGES NOTHING on screen: w/ or w/o, screen is same
+  ofxRectangleObject *rect2 = new ofxRectangleObject(250,250);
+  rect2->setColor(255., 0., 0., 255.);    //red
+  rect2->setTrans(0, 0, 9);
+  vidUniverse->addToRoot(rect2);
+  
+  scene->getRoot()->addChild(vidUniverse);
 
 }
 
@@ -41,12 +43,8 @@ void emptyApp::update(){
 //--------------------------------------------------------------
 void emptyApp::draw(){
   
-	// Orig
   scene->draw();
-  
-  // New
-  vidUniverse->drawFBOScene();        // display vidUni with grey BG and pink rect
-
+  vidUniverse->drawFBOScene();
 }
 
 //--------------------------------------------------------------
