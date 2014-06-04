@@ -18,7 +18,14 @@ void emptyApp::setup(){
   // EXAMPLE - using threadedImageLoader with ofxImageObject.
   string filename = "plasticman.jpg";
   imageObj = new ofxImageObject(filename, false);
-  threadedImageLoader->loadFromDisk(&imageObj->image, imageObj->filename);
+//  imageObj = new ofxImageObject(filename, true);
+  cout<<"1 - "<< imageObj->image <<endl;
+  ofImage* img = imageObj->image;
+//  cout<<"2 - "<< imageObj->*image <<endl;
+//  cout<<"3 - "<< imageObj->(*image) <<endl;
+//  cout<<"4 - "<< *(imageObj->image)->width <<endl;
+//  threadedImageLoader->loadFromDisk(&imageObj->image, imageObj->filename);
+//  threadedImageLoader->loadFromDisk(imageObj->image, imageObj->filename);
   
 }
 
