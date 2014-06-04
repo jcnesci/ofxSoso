@@ -1,4 +1,3 @@
-
 //
 //  ofxScroller.cpp
 //
@@ -30,7 +29,7 @@ ofxScrollTransform::ofxScrollTransform(int iTransform, float iStartScroll, float
   scrollRange[1] = iEndScroll;
   valueRange[0] = iStartVal;
   valueRange[1] = iEndVal;
-
+  
 }
 
 
@@ -42,7 +41,6 @@ ofxScrollObject::ofxScrollObject(ofxObject *iObject) {
 
 // Destructor
 ofxScrollObject::~ofxScrollObject(){
-  
   // Delete transforms
   for (auto transform : transforms){
     delete transform;
@@ -122,14 +120,14 @@ ofxScroller::ofxScroller(float iHeight) {
   // Tracking object for jumping to snap points
   scrollTracker = new ofxObject();
   addChild(scrollTracker);
-
+  
 }
 
 // Destructor
 ofxScroller::~ofxScroller() {
-
-  delete scrollTracker;
+  
   delete scrollRoot;
+  delete scrollTracker;
   
   //delete all scroll objects
   for (auto scroll_obj : scrollObjects){
@@ -156,13 +154,13 @@ void ofxScroller::update(float iTime) {
   }else if (isUsingVelocity){
     scrollVelocity*=0.9f; // decrease scroll velocity
     if (abs(scrollVelocity) < 0.1f) {
-     scrollVelocity = 0.0f;
+      scrollVelocity = 0.0f;
       isUsingVelocity = false;
     }
     moveScroll(scrollVelocity * timeElapsed);
     scrollTracker->setScale(scrollPosition);
   }else{
-  
+    
     scrollTracker->setScale(scrollPosition);
   }
   
@@ -220,7 +218,7 @@ void ofxScroller::update(float iTime) {
           
           p = max(0.0f, p);
           p = min(1.0f, p);
-
+          
           // Do the right thing for each type of transform.
           switch(t->transform){
             case OF_TRANSLATE:
@@ -242,8 +240,8 @@ void ofxScroller::update(float iTime) {
               else y = vec.y;
               if(vec.z == OF_RELATIVE_VAL) z = pos.z;
               else z = vec.z;
-                
-                startVals = ofVec3f(x, y, z);
+              
+              startVals = ofVec3f(x, y, z);
               
               ofVec3f endVec = t->valueRange[1];
               
@@ -259,9 +257,11 @@ void ofxScroller::update(float iTime) {
               
               // Set trans
               obj->object->setTrans(startVals + p*(endVals - startVals));
-              break;
+             
             }
   
+              break;
+              
             case OF_ROTATE:
             {
               float x,y,z;
@@ -297,8 +297,9 @@ void ofxScroller::update(float iTime) {
               endVals = ofVec3f(x, y, z);
               
               obj->object->setRot(startVals + p*(endVals - startVals));
-              break;
+              
             }
+              break;
              
             case OF_SCALE:
             {
@@ -307,7 +308,7 @@ void ofxScroller::update(float iTime) {
               float val1 = t->valueRange[1][0];
               float startVal, endVal;
               float scale = obj->object->getScale().x;
-        
+              
               // FIRST check if we are using any OF_RELATIVE_VAL values...
               // If so, we should grab the object's current scale
               
@@ -320,10 +321,11 @@ void ofxScroller::update(float iTime) {
               if (val1 == OF_RELATIVE_VAL)
                 endVal = scale;
               else endVal = val1;
-
+              
               obj->object->setScale(startVal + p*(endVal - startVal));
-              break;
+              
             }
+              break;
               
             case OF_SCALE3:
             {
@@ -346,7 +348,7 @@ void ofxScroller::update(float iTime) {
               else z = vec.z;
               
               startVals = ofVec3f(x, y, z);
-
+              
               ofVec3f endVec = t->valueRange[1];
               
               // Check for relative end vals
@@ -360,8 +362,10 @@ void ofxScroller::update(float iTime) {
               endVals = ofVec3f(x, y, z);
               
               obj->object->setScale(startVals + p*(endVals - startVals));
-              break;
+              
             }
+              
+              break;
               
             case OF_SETALPHA:
             {
@@ -388,8 +392,10 @@ void ofxScroller::update(float iTime) {
               //maybe do set color w/ new alpha?
               obj->object->setAlpha((startVal + p*(endVal - startVal)));
               
-              break;
+          
             }
+              
+              break;
               
             case OF_SETCOLOR:
             {
@@ -397,7 +403,7 @@ void ofxScroller::update(float iTime) {
               ofVec3f startVals;
               ofVec3f endVals;
               
-              ofVec4f color = obj->object->getColor();
+              ofVec4f color = obj->object->getColorVec4f(); //TODO:  Potentially change this to ofColor
               ofVec3f vec = t->valueRange[0];
               
               // FIRST check if we are using any OF_RELATIVE_VAL values...
@@ -426,10 +432,9 @@ void ofxScroller::update(float iTime) {
               endVals = ofVec3f(r, g, b);
               
               obj->object->setColor((startVals + p*(endVals - startVals)).x,(startVals + p*(endVals - startVals)).y,(startVals + p*(endVals - startVals)).z);
+            }
               
               break;
-            
-            }
 
             default:
               break;
@@ -473,7 +478,7 @@ void ofxScroller::disable(float iDelay, float iDuration) {
   
   start_disable_time = time + iDelay;
   disable_duration = iDuration;
-
+  
 }
 
 
@@ -660,7 +665,7 @@ void ofxScroller::setScrollHeight(float iHeight) {
 
 // Set the scroll position of the list. iPosition is in pixels and 0 moves the list to the top.
 float ofxScroller::setScroll(float iPosition) {
-
+  
   if (isEnabled) {
     if (!isSnapping){
       
