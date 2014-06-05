@@ -16,17 +16,22 @@ void emptyApp::setup(){
 	scene->setBackgroundColor(10, 10, 10);
     
   // EXAMPLE - using threadedImageLoader with ofxImageObject.
-  string filename = "plasticman.jpg";
-  imageObj = new ofxImageObject(filename, false);
+//  string filename = "plasticman.jpg";
+//  imageObj = new ofxImageObject(filename, false);
+  
 //  imageObj = new ofxImageObject(filename, true);
-  cout<<"1 - "<< imageObj->image <<endl;
-  ofImage* img = imageObj->image;
+//  cout<<"1 - "<< imageObj->image <<endl;
 //  cout<<"2 - "<< imageObj->*image <<endl;
 //  cout<<"3 - "<< imageObj->(*image) <<endl;
 //  cout<<"4 - "<< *(imageObj->image)->width <<endl;
 //  threadedImageLoader->loadFromDisk(&imageObj->image, imageObj->filename);
 //  threadedImageLoader->loadFromDisk(imageObj->image, imageObj->filename);
-  
+//  - - - - -
+  ofImage* img = imageObj->image;
+  cout<<"5 - "<< img->getHeight() <<endl;
+  ofImage* ofImg = new ofImage();
+//  ofImg = NULL;
+  threadedImageLoader->loadFromDisk(*ofImg, "plasticman.jpg");
 }
 
 //--------------------------------------------------------------
