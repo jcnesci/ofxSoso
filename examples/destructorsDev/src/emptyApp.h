@@ -55,11 +55,13 @@ public:
   ofxTextObject             *counterDisplay;
   vector<ofxVideoPlayerObject *>  videoPlayerCollection;
   
+  // For deletion timer.
   float                     tempCurTime;
   float                     timeElapsedSinceVideoCreation;
   float                     timeStartedVideoCreation;
   float                     timePreviousForVideo;
   bool                      videosCreated;
+  float                     deletionInterval;
   
   int                       numObjectsToCreate;
   int                       numVideosToCreate;

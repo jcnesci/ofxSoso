@@ -27,7 +27,9 @@ void emptyApp::setup(){
   counterDisplay->setTrans(0, 0, 5.0);
   scene->getRoot()->addChild(counterDisplay);
   
+  // For deletion timer
   videosCreated = false;
+  deletionInterval = 1.0;    // in ms, dictates the time between each video deletion.
   
   // Init counters for each destructor test.
   numObjectsToCreate = 1000;
@@ -55,53 +57,55 @@ void emptyApp::setup(){
   
 }
 
-//--------------------------------------------------------------
 void emptyApp::update(){
   
   scene->update(ofGetElapsedTimef());
   
-//  tempCurTime = ofxObject::curTime;
-//  cout<<"- tempCurTime = "<< tempCurTime <<endl;
-//  
-//  // Every 5 minutes, delete a video. We want to see if the memory will
-//  if (videosCreated){
-//    if(videoPlayerCollection.size() > 0){
-//      
-//      timeElapsedSinceVideoCreation = ofxObject::curTime - timeStartedVideoCreation;
-//      cout<<"-- timeElapsedSinceVideoCreation = "<< timeElapsedSinceVideoCreation <<endl;
-//      cout<<"--- timePreviousForVideo = "<< timePreviousForVideo <<endl;
-//      
-//      if (timeElapsedSinceVideoCreation >= (timePreviousForVideo + 15.0)){
-//        cout<<"* * * * * * * * * * * * * * * * * * * * * * It's been 5 secs!" <<endl;
-//        
-//        timePreviousForVideo = timeElapsedSinceVideoCreation;
-//      }
-//    
-//    }
-//  }
+  // --------------------------------------------------------------------------------
+  // TIMER for deleting video objects over a long period of time.
+  tempCurTime = ofxObject::curTime;
+  cout<<"- tempCurTime = "<< tempCurTime <<endl;
   
-  //DEV_JC: memory usage testing ----------------------------------------
+  // Every 5 minutes, delete a video. We want to see if the memory will
+  if (videosCreated){
+    if(videoPlayerCollection.size() > 0){
+      
+      timeElapsedSinceVideoCreation = ofxObject::curTime - timeStartedVideoCreation;
+      cout<<"-- timeElapsedSinceVideoCreation = "<< timeElapsedSinceVideoCreation <<endl;
+      cout<<"--- timePreviousForVideo = "<< timePreviousForVideo <<endl;
+      
+      if (timeElapsedSinceVideoCreation >= (timePreviousForVideo + deletionInterval)){
+        // Delete a video.
+        videoPlayerCollection.pop_back();
+        
+        cout<<"* * * * * * * * * * It's been "<< deletionInterval <<" secs!"<<endl;
+        cout<<"* * * * * * * * * * videos left: "<< videoPlayerCollection.size() <<endl;
+
+        timePreviousForVideo = timeElapsedSinceVideoCreation;
+      }
+    }
+    
+  }
+  
+  // --------------------------------------------------------------------------------
+  //DEV_JC: memory usage testing
+  //COMMENT-OUT IF UNNECESSARY.
   if (KERN_SUCCESS != task_info(mach_task_self(),
                                 TASK_BASIC_INFO, (task_info_t)&t_info,
                                 &t_info_count))
-  {
-    return -1;
-  }
+  { return -1; }
   cout<<"-------------------------------------------------------"<<endl;
   cout<<"t_info.resident_size = "<< t_info.resident_size <<endl;
   cout<<"t_info.virtual_size = "<< t_info.virtual_size <<endl;
   cout<<"-------------------------------------------------------"<<endl;
-  // --------------------------------------------------------------------
 }
 
-//--------------------------------------------------------------
 void emptyApp::draw(){
   
 	//Call draw on scene, which initiates the drawing of the root object.
   scene->draw();
 }
 
-//--------------------------------------------------------------
 void emptyApp::keyPressed  (int key){
   
   if(key == 'a'){
@@ -202,7 +206,7 @@ void emptyApp::keyPressed  (int key){
     timeStartedVideoCreation = ofGetElapsedTimef();
     timeElapsedSinceVideoCreation = 0.0;
     timePreviousForVideo = 0.0;
-    videosCreated = true;
+    videosCreated = true;       // Starts the timer to begin timed video deletion.
     cout<<"-------- timeStartedVideoCreation = "<< timeStartedVideoCreation <<endl;
     
     for(int i=0; i < numVideosToCreate; i++) {
@@ -213,6 +217,7 @@ void emptyApp::keyPressed  (int key){
     numCreatedVideoPlayerObjects += numVideosToCreate;
     counterDisplay->setString("# of ofxVideoPlayerObjects CREATED: "+ ofToString(numCreatedVideoPlayerObjects));
   } else if(key == 'K'){
+    //Deletes all videos.
     for(auto videoPlayer : videoPlayerCollection) {
       delete videoPlayer;
     }
