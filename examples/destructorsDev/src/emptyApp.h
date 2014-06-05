@@ -47,6 +47,8 @@ public:
   ofxTextObject             *counterDisplay;
   vector<ofxVideoPlayerObject *>  videoPlayerCollection;
   
+  int                       secondsSinceStart = 0;
+  
   int                       numObjectsToCreate;
   int                       numVideosToCreate;
 

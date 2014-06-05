@@ -58,6 +58,18 @@ void emptyApp::update(){
 	//Update the scene with the current time. This call propagates the idle() call to all objects as well.
 	//Note: If you are capturing frames to create a movie, simply replace ofGetElapsedTimef() with a float variable that you increment by a fixed time interval each frame.
   scene->update(ofGetElapsedTimef());
+  
+  cout<<"curTime = "<< ofxObject::curTime <<endl;
+  
+  secondsSinceStart = round(ofxObject::curTime);
+  cout<<"secondsSinceStart = "<< secondsSinceStart <<endl;
+  
+//  if (videosCreated){
+//    while(videoPlayerCollection.size() > 0){
+//      if (round(ofxObject::curTime)
+//    }
+//  }
+  
 }
 
 //--------------------------------------------------------------
