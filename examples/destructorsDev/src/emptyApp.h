@@ -21,6 +21,9 @@
 #include "ofxAnimation.h"
 #include "ofxScroller.h"
 
+//DEV_JC: memory usage testing: http://stackoverflow.com/questions/63166/how-to-determine-cpu-and-memory-consumption-from-inside-a-process
+#include<mach/mach.h>
+
 class emptyApp : public ofBaseApp{
   
 public:
@@ -41,13 +44,22 @@ public:
   
   
 public:
+
+  //DEV_JC: memory usage testing
+  struct task_basic_info t_info;
+  mach_msg_type_number_t t_info_count = TASK_BASIC_INFO_COUNT;
+  
   ofxScene                  *scene;
   
   ofxSosoTrueTypeFont				*font16;
   ofxTextObject             *counterDisplay;
   vector<ofxVideoPlayerObject *>  videoPlayerCollection;
   
-  int                       secondsSinceStart = 0;
+  float                     tempCurTime;
+  float                     timeElapsedSinceVideoCreation;
+  float                     timeStartedVideoCreation;
+  float                     timePreviousForVideo;
+  bool                      videosCreated;
   
   int                       numObjectsToCreate;
   int                       numVideosToCreate;

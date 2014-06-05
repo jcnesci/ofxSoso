@@ -27,6 +27,8 @@ void emptyApp::setup(){
   counterDisplay->setTrans(0, 0, 5.0);
   scene->getRoot()->addChild(counterDisplay);
   
+  videosCreated = false;
+  
   // Init counters for each destructor test.
   numObjectsToCreate = 1000;
   numVideosToCreate = 100;
@@ -50,26 +52,46 @@ void emptyApp::setup(){
   numCreatedStateMachines = 0;
   numCreatedAnimations = 0;
   numCreatedScrollers = 0;
+  
 }
 
 //--------------------------------------------------------------
 void emptyApp::update(){
   
-	//Update the scene with the current time. This call propagates the idle() call to all objects as well.
-	//Note: If you are capturing frames to create a movie, simply replace ofGetElapsedTimef() with a float variable that you increment by a fixed time interval each frame.
   scene->update(ofGetElapsedTimef());
   
-  cout<<"curTime = "<< ofxObject::curTime <<endl;
-  
-  secondsSinceStart = round(ofxObject::curTime);
-  cout<<"secondsSinceStart = "<< secondsSinceStart <<endl;
-  
+//  tempCurTime = ofxObject::curTime;
+//  cout<<"- tempCurTime = "<< tempCurTime <<endl;
+//  
+//  // Every 5 minutes, delete a video. We want to see if the memory will
 //  if (videosCreated){
-//    while(videoPlayerCollection.size() > 0){
-//      if (round(ofxObject::curTime)
+//    if(videoPlayerCollection.size() > 0){
+//      
+//      timeElapsedSinceVideoCreation = ofxObject::curTime - timeStartedVideoCreation;
+//      cout<<"-- timeElapsedSinceVideoCreation = "<< timeElapsedSinceVideoCreation <<endl;
+//      cout<<"--- timePreviousForVideo = "<< timePreviousForVideo <<endl;
+//      
+//      if (timeElapsedSinceVideoCreation >= (timePreviousForVideo + 15.0)){
+//        cout<<"* * * * * * * * * * * * * * * * * * * * * * It's been 5 secs!" <<endl;
+//        
+//        timePreviousForVideo = timeElapsedSinceVideoCreation;
+//      }
+//    
 //    }
 //  }
   
+  //DEV_JC: memory usage testing ----------------------------------------
+  if (KERN_SUCCESS != task_info(mach_task_self(),
+                                TASK_BASIC_INFO, (task_info_t)&t_info,
+                                &t_info_count))
+  {
+    return -1;
+  }
+  cout<<"-------------------------------------------------------"<<endl;
+  cout<<"t_info.resident_size = "<< t_info.resident_size <<endl;
+  cout<<"t_info.virtual_size = "<< t_info.virtual_size <<endl;
+  cout<<"-------------------------------------------------------"<<endl;
+  // --------------------------------------------------------------------
 }
 
 //--------------------------------------------------------------
@@ -177,6 +199,11 @@ void emptyApp::keyPressed  (int key){
     numCreatedDynPolygonObjects += numObjectsToCreate;
     counterDisplay->setString("# of ofxDynamicPolygonObjects: "+ ofToString(numCreatedDynPolygonObjects));
   } else if(key == 'k'){
+    timeStartedVideoCreation = ofGetElapsedTimef();
+    timeElapsedSinceVideoCreation = 0.0;
+    timePreviousForVideo = 0.0;
+    videosCreated = true;
+    cout<<"-------- timeStartedVideoCreation = "<< timeStartedVideoCreation <<endl;
     
     for(int i=0; i < numVideosToCreate; i++) {
       ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject("RF1308-Superbowl_Closing-Ver02.mp4");
