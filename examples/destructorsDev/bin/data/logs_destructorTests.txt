@@ -201,3 +201,9 @@
 [notice ] MEMORY STATS:
 [notice ] t_info.resident_size = 708321280
 [notice ] t_info.virtual_size = 1542049792
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 IMAGE. Images remaining: 997
+[notice ] Time passed = 180 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 708304896
+[notice ] t_info.virtual_size = 1541722112
