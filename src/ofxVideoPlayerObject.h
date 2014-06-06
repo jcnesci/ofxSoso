@@ -29,7 +29,7 @@
 class ofxVideoPlayerObject : public ofxObject
 {
 public:
-	ofxVideoPlayerObject(char *iPath);
+	ofxVideoPlayerObject(string iPath);
   //ofxVideoPlayerObject(ofBaseVideoPlayer *player);
 	~ofxVideoPlayerObject();
   

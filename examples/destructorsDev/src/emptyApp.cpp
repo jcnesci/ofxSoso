@@ -29,11 +29,11 @@ void emptyApp::setup(){
   
   // For deletion timer
   videosCreated = false;
-  deletionInterval = 1.0;    // in ms, dictates the time between each video deletion.
+  deletionInterval = 60.0;    // in ms, dictates the time between each video deletion.
   
   // Init counters for each destructor test.
   numObjectsToCreate = 1000;
-  numVideosToCreate = 100;
+  numVideosToCreate = 120;
   numCreatedTextObjects = 0;
   numCreatedGridSystems = 0;
   numCreatedCircleObjects = 0;
@@ -55,6 +55,11 @@ void emptyApp::setup(){
   numCreatedAnimations = 0;
   numCreatedScrollers = 0;
   
+  
+  ofLogToFile("logs_destructorTests.txt", true);    // OPTION : log console msgs to file.
+  ofLog()<<"----------------------------------------------------------------------------------------------------";
+  ofLog()<<"DESTRUCTOR TEST - START @ "<< ofGetTimestampString("%H:%M:%S %A - %w %d/%B/%Y");
+  ofLog()<<"----------------------------------------------------------------------------------------------------";
 }
 
 void emptyApp::update(){
@@ -64,40 +69,42 @@ void emptyApp::update(){
   // --------------------------------------------------------------------------------
   // TIMER for deleting video objects over a long period of time.
   tempCurTime = ofxObject::curTime;
-  cout<<"- tempCurTime = "<< tempCurTime <<endl;
+//  cout<<"- tempCurTime = "<< tempCurTime <<endl;
   
   // Every 5 minutes, delete a video. We want to see if the memory will
   if (videosCreated){
     if(videoPlayerCollection.size() > 0){
       
       timeElapsedSinceVideoCreation = ofxObject::curTime - timeStartedVideoCreation;
-      cout<<"-- timeElapsedSinceVideoCreation = "<< timeElapsedSinceVideoCreation <<endl;
-      cout<<"--- timePreviousForVideo = "<< timePreviousForVideo <<endl;
+//      cout<<"-- timeElapsedSinceVideoCreation = "<< timeElapsedSinceVideoCreation <<endl;
+//      cout<<"--- timePreviousForVideo = "<< timePreviousForVideo <<endl;
       
       if (timeElapsedSinceVideoCreation >= (timePreviousForVideo + deletionInterval)){
+        ofLog()<<"----------------------------------------------------------------------------------------------------";
+        
         // Delete a video.
         videoPlayerCollection.pop_back();
-        
-        cout<<"* * * * * * * * * * It's been "<< deletionInterval <<" secs!"<<endl;
-        cout<<"* * * * * * * * * * videos left: "<< videoPlayerCollection.size() <<endl;
 
+        // Log deletion progress.
+        ofLog()<<"DELETING 1 VIDEO. Videos remaining: "<< videoPlayerCollection.size();
+        ofLog()<<"Time passed = "<< timeElapsedSinceVideoCreation <<" seconds";
+        //        cout<<"* * * * * * * * * * It's been "<< deletionInterval <<" secs!"<<endl;
+        //        cout<<"* * * * * * * * * * videos left: "<< videoPlayerCollection.size() <<endl;
+
+        // DEV_JC: Log memory usage.
+        //COMMENT-OUT IF UNNECESSARY.
+        if (KERN_SUCCESS != task_info(mach_task_self(), TASK_BASIC_INFO, (task_info_t)&t_info, &t_info_count)){ return -1; }
+        ofLog()<<"MEMORY STATS:";
+        ofLog()<<"t_info.resident_size = "<< t_info.resident_size;
+        ofLog()<<"t_info.virtual_size = "<< t_info.virtual_size;
+
+        // Update timer.
         timePreviousForVideo = timeElapsedSinceVideoCreation;
       }
     }
     
   }
   
-  // --------------------------------------------------------------------------------
-  //DEV_JC: memory usage testing
-  //COMMENT-OUT IF UNNECESSARY.
-  if (KERN_SUCCESS != task_info(mach_task_self(),
-                                TASK_BASIC_INFO, (task_info_t)&t_info,
-                                &t_info_count))
-  { return -1; }
-  cout<<"-------------------------------------------------------"<<endl;
-  cout<<"t_info.resident_size = "<< t_info.resident_size <<endl;
-  cout<<"t_info.virtual_size = "<< t_info.virtual_size <<endl;
-  cout<<"-------------------------------------------------------"<<endl;
 }
 
 void emptyApp::draw(){
@@ -207,10 +214,22 @@ void emptyApp::keyPressed  (int key){
     timeElapsedSinceVideoCreation = 0.0;
     timePreviousForVideo = 0.0;
     videosCreated = true;       // Starts the timer to begin timed video deletion.
-    cout<<"-------- timeStartedVideoCreation = "<< timeStartedVideoCreation <<endl;
+    string videoFile = "fingers.mov";     //RF1308-Superbowl_Closing-Ver02.mp4
+    
+    ofLog()<<"----------------------------------------------------------------------------------------------------";
+    ofLog()<<"120 VIDEOS CREATED @ "<< timeStartedVideoCreation <<" seconds since program started.";
+    ofLog()<<"Now starting deletion of 1 video every minute.";
+    ofLog()<<"Video file is: "<< videoFile;
+    // DEV_JC: Log memory usage.
+    //COMMENT-OUT IF UNNECESSARY.
+    if (KERN_SUCCESS != task_info(mach_task_self(), TASK_BASIC_INFO, (task_info_t)&t_info, &t_info_count)){ return -1; }
+    ofLog()<<"MEMORY STATS:";
+    ofLog()<<"t_info.resident_size = "<< t_info.resident_size;
+    ofLog()<<"t_info.virtual_size = "<< t_info.virtual_size;
+    ofLog()<<"----------------------------------------------------------------------------------------------------";
     
     for(int i=0; i < numVideosToCreate; i++) {
-      ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject("RF1308-Superbowl_Closing-Ver02.mp4");
+      ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject(videoFile);
       videoPlayer->start();
       videoPlayerCollection.push_back(videoPlayer);
     }
@@ -233,14 +252,13 @@ void emptyApp::keyPressed  (int key){
     numCreatedFboObjects += numObjectsToCreate;
     counterDisplay->setString("# of ofxFboObjects: "+ ofToString(numCreatedFboObjects));
   } else if(key == 'm'){
-    
-    
-    
+    // Using ofxImageObject.
 //    for(int i=0; i < numObjectsToCreate; i++) {
 //      ofxImageObject* image = new ofxImageObject("plasticman.jpg");
 //      delete image;
 //    }
-
+    
+    // Testing using ofImage to see if it also doesn't clear system memory. It doesn't either, just like ofxImageObject.
     for(int i=0; i < numObjectsToCreate; i++) {
       ofImage* image = new ofImage("plasticman.jpg");
       delete image;

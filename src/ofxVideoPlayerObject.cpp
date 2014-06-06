@@ -1,6 +1,6 @@
 #include "ofxVideoPlayerObject.h"
 
-ofxVideoPlayerObject::ofxVideoPlayerObject(char *iPath)
+ofxVideoPlayerObject::ofxVideoPlayerObject(string iPath)
 {
   player = new ofxAVFVideoPlayer();
   
