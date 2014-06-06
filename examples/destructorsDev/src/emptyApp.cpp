@@ -28,9 +28,10 @@ void emptyApp::setup(){
   scene->getRoot()->addChild(counterDisplay);
   
   // For deletion timer
-  videosCreated = false;
   deletionInterval = 60.0;    // in ms, dictates the time between each video deletion.
-  
+  videosCreated = false;
+  imagesCreated = false;
+
   // Init counters for each destructor test.
   numObjectsToCreate = 1000;
   numVideosToCreate = 120;
@@ -67,11 +68,9 @@ void emptyApp::update(){
   scene->update(ofGetElapsedTimef());
   
   // --------------------------------------------------------------------------------
-  // TIMER for deleting video objects over a long period of time.
-  tempCurTime = ofxObject::curTime;
-//  cout<<"- tempCurTime = "<< tempCurTime <<endl;
+  // TIMER for deleting videos/images objects over a long period of time.
   
-  // Every 5 minutes, delete a video. We want to see if the memory will
+  // VIDEO DELETION: We want to see if the memory will clear itself if we delete items over a longer period of time.
   if (videosCreated){
     if(videoPlayerCollection.size() > 0){
       
@@ -100,6 +99,39 @@ void emptyApp::update(){
 
         // Update timer.
         timePreviousForVideo = timeElapsedSinceVideoCreation;
+      }
+    }
+  }
+  
+  // IMAGE DELETION
+  if (imagesCreated){
+    if(imageCollection.size() > 0){
+      
+      timeElapsedSinceImageCreation = ofxObject::curTime - timeStartedImageCreation;
+      //      cout<<"-- timeElapsedSinceImageCreation = "<< timeElapsedSinceImageCreation <<endl;
+      //      cout<<"--- timePreviousForImage = "<< timePreviousForImage <<endl;
+      
+      if (timeElapsedSinceImageCreation >= (timePreviousForImage + deletionInterval)){
+        ofLog()<<"----------------------------------------------------------------------------------------------------";
+        
+        // Delete a video.
+        imageCollection.pop_back();
+        
+        // Log deletion progress.
+        ofLog()<<"DELETING 1 IMAGE. Images remaining: "<< imageCollection.size();
+        ofLog()<<"Time passed = "<< timeElapsedSinceImageCreation <<" seconds";
+        //        cout<<"* * * * * * * * * * It's been "<< deletionInterval <<" secs!"<<endl;
+        //        cout<<"* * * * * * * * * * images left: "<< imageCollection.size() <<endl;
+        
+        // DEV_JC: Log memory usage.
+        //COMMENT-OUT IF UNNECESSARY.
+        if (KERN_SUCCESS != task_info(mach_task_self(), TASK_BASIC_INFO, (task_info_t)&t_info, &t_info_count)){ return -1; }
+        ofLog()<<"MEMORY STATS:";
+        ofLog()<<"t_info.resident_size = "<< t_info.resident_size;
+        ofLog()<<"t_info.virtual_size = "<< t_info.virtual_size;
+        
+        // Update timer.
+        timePreviousForImage = timeElapsedSinceImageCreation;
       }
     }
     
@@ -217,7 +249,7 @@ void emptyApp::keyPressed  (int key){
     string videoFile = "fingers.mov";     //RF1308-Superbowl_Closing-Ver02.mp4
     
     ofLog()<<"----------------------------------------------------------------------------------------------------";
-    ofLog()<<"120 VIDEOS CREATED @ "<< timeStartedVideoCreation <<" seconds since program started.";
+    ofLog()<< numVideosToCreate <<" VIDEOS CREATED @ "<< timeStartedVideoCreation <<" seconds since program started.";
     ofLog()<<"Now starting deletion of 1 video every minute.";
     ofLog()<<"Video file is: "<< videoFile;
     // DEV_JC: Log memory usage.
@@ -235,7 +267,10 @@ void emptyApp::keyPressed  (int key){
     }
     numCreatedVideoPlayerObjects += numVideosToCreate;
     counterDisplay->setString("# of ofxVideoPlayerObjects CREATED: "+ ofToString(numCreatedVideoPlayerObjects));
-  } else if(key == 'K'){
+  }
+  /*
+  // REMOVING for now since we're deleting with timer now.
+  else if(key == 'K'){
     //Deletes all videos.
     for(auto videoPlayer : videoPlayerCollection) {
       delete videoPlayer;
@@ -243,7 +278,9 @@ void emptyApp::keyPressed  (int key){
     videoPlayerCollection.clear();
     numCreatedVideoPlayerObjects = videoPlayerCollection.size();
     counterDisplay->setString("# of ofxVideoPlayerObjects DELETED: "+ ofToString(numCreatedVideoPlayerObjects));
-  } else if(key == 'l'){
+  }
+   */
+   else if(key == 'l'){
     
     for(int i=0; i < numObjectsToCreate; i++) {
       ofxFboObject* fbo = new ofxFboObject(400, 400);
@@ -252,17 +289,35 @@ void emptyApp::keyPressed  (int key){
     numCreatedFboObjects += numObjectsToCreate;
     counterDisplay->setString("# of ofxFboObjects: "+ ofToString(numCreatedFboObjects));
   } else if(key == 'm'){
+    timeStartedImageCreation = ofGetElapsedTimef();
+    timeElapsedSinceImageCreation = 0.0;
+    timePreviousForImage = 0.0;
+    imagesCreated = true;       // Starts the timer to begin timed image deletion.
+    string imageFile = "plasticman.jpg";
+    
+    ofLog()<<"----------------------------------------------------------------------------------------------------";
+    ofLog()<< numObjectsToCreate <<" IMAGES CREATED @ "<< timeStartedImageCreation <<" seconds since program started.";
+    ofLog()<<"Now starting deletion of 1 image every minute.";
+    ofLog()<<"Image file is: "<< imageFile;
+    // DEV_JC: Log memory usage.
+    //COMMENT-OUT IF UNNECESSARY.
+    if (KERN_SUCCESS != task_info(mach_task_self(), TASK_BASIC_INFO, (task_info_t)&t_info, &t_info_count)){ return -1; }
+    ofLog()<<"MEMORY STATS:";
+    ofLog()<<"t_info.resident_size = "<< t_info.resident_size;
+    ofLog()<<"t_info.virtual_size = "<< t_info.virtual_size;
+    ofLog()<<"----------------------------------------------------------------------------------------------------";
+    
     // Using ofxImageObject.
+    for(int i=0; i < numObjectsToCreate; i++) {
+      ofxImageObject* image = new ofxImageObject(imageFile);
+      imageCollection.push_back(image);
+//      delete image;     //REMOVE for now since we are deleting with timer now.
+    }
+    // Instead using ofImage to see if it also doesn't clear system memory. It doesn't either, just like ofxImageObject.
 //    for(int i=0; i < numObjectsToCreate; i++) {
-//      ofxImageObject* image = new ofxImageObject("plasticman.jpg");
+//      ofImage* image = new ofImage("plasticman.jpg");
 //      delete image;
 //    }
-    
-    // Testing using ofImage to see if it also doesn't clear system memory. It doesn't either, just like ofxImageObject.
-    for(int i=0; i < numObjectsToCreate; i++) {
-      ofImage* image = new ofImage("plasticman.jpg");
-      delete image;
-    }
     
     numCreatedImageObjects += numObjectsToCreate;
     counterDisplay->setString("# of ofxImageObjects: "+ ofToString(numCreatedImageObjects));

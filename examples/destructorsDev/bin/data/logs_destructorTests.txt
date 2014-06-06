@@ -12,3 +12,192 @@
 [notice ] t_info.resident_size = 16969728
 [notice ] t_info.virtual_size = 819474432
 [notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 119
+[notice ] Time passed = 60.0002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84267008
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 118
+[notice ] Time passed = 120 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84283392
+[notice ] t_info.virtual_size = 1621712896
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 117
+[notice ] Time passed = 180 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84279296
+[notice ] t_info.virtual_size = 1622179840
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 116
+[notice ] Time passed = 240.001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84307968
+[notice ] t_info.virtual_size = 1622040576
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 115
+[notice ] Time passed = 300.001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84275200
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 114
+[notice ] Time passed = 360.001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84291584
+[notice ] t_info.virtual_size = 1621975040
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 113
+[notice ] Time passed = 420.001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84320256
+[notice ] t_info.virtual_size = 1622302720
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 112
+[notice ] Time passed = 480.001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84279296
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 111
+[notice ] Time passed = 540.001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84283392
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 110
+[notice ] Time passed = 600.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84283392
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 109
+[notice ] Time passed = 660.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84299776
+[notice ] t_info.virtual_size = 1621975040
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 108
+[notice ] Time passed = 720.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84283392
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 107
+[notice ] Time passed = 780.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84279296
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 106
+[notice ] Time passed = 840.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84303872
+[notice ] t_info.virtual_size = 1622040576
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 105
+[notice ] Time passed = 900.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84389888
+[notice ] t_info.virtual_size = 1623285760
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 104
+[notice ] Time passed = 960.002 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84324352
+[notice ] t_info.virtual_size = 1622040576
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 103
+[notice ] Time passed = 1020 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84307968
+[notice ] t_info.virtual_size = 1621975040
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 102
+[notice ] Time passed = 1080 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84295680
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 101
+[notice ] Time passed = 1140 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84295680
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 100
+[notice ] Time passed = 1200 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84291584
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 99
+[notice ] Time passed = 1260 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84287488
+[notice ] t_info.virtual_size = 1621647360
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 98
+[notice ] Time passed = 1320 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84402176
+[notice ] t_info.virtual_size = 1623289856
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 97
+[notice ] Time passed = 1380 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84307968
+[notice ] t_info.virtual_size = 1621651456
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 96
+[notice ] Time passed = 1440 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84332544
+[notice ] t_info.virtual_size = 1622511616
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 95
+[notice ] Time passed = 1500 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84307968
+[notice ] t_info.virtual_size = 1621651456
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 94
+[notice ] Time passed = 1560 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84402176
+[notice ] t_info.virtual_size = 1623289856
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 93
+[notice ] Time passed = 1620 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 84324352
+[notice ] t_info.virtual_size = 1621716992
+
+
+
+--------------------------------------- 2014-06-06-12-23-12-062
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 12:23:12 PM - Fri 06/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 1000 IMAGES CREATED @ 27.2903 seconds since program started.
+[notice ] Now starting deletion of 1 image every minute.
+[notice ] Image file is: plasticman.jpg
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17084416
+[notice ] t_info.virtual_size = 818626560
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 IMAGE. Images remaining: 999
+[notice ] Time passed = 60.0001 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 708317184
+[notice ] t_info.virtual_size = 1541787648
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 IMAGE. Images remaining: 998
+[notice ] Time passed = 120 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 708321280
+[notice ] t_info.virtual_size = 1542049792

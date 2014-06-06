@@ -54,14 +54,18 @@ public:
   ofxSosoTrueTypeFont				*font16;
   ofxTextObject             *counterDisplay;
   vector<ofxVideoPlayerObject *>  videoPlayerCollection;
+  vector<ofxImageObject *>  imageCollection;
   
   // For deletion timer.
-  float                     tempCurTime;
+  float                     deletionInterval;
   float                     timeElapsedSinceVideoCreation;
   float                     timeStartedVideoCreation;
   float                     timePreviousForVideo;
   bool                      videosCreated;
-  float                     deletionInterval;
+  float                     timeElapsedSinceImageCreation;
+  float                     timeStartedImageCreation;
+  float                     timePreviousForImage;
+  bool                      imagesCreated;
   
   int                       numObjectsToCreate;
   int                       numVideosToCreate;
