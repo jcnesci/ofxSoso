@@ -260,26 +260,47 @@ void emptyApp::keyPressed  (int key){
     ofLog()<<"t_info.virtual_size = "<< t_info.virtual_size;
     ofLog()<<"----------------------------------------------------------------------------------------------------";
     
+    // SOSO's video obj.
+//    for(int i=0; i < numVideosToCreate; i++) {
+//      ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject(videoFile);
+//      videoPlayer->start();
+//      videoPlayerCollection.push_back(videoPlayer);
+//    }
+    // ObviousJim's video obj.
     for(int i=0; i < numVideosToCreate; i++) {
-      ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject(videoFile);
-      videoPlayer->start();
-      videoPlayerCollection.push_back(videoPlayer);
+      ofQTKitPlayer* jimMovie = new ofQTKitPlayer();
+      jimMovie->loadMovie(videoFile);
+      jimMovie->play();
+      jimVideoPlayerCollection.push_back(jimMovie);
     }
     numCreatedVideoPlayerObjects += numVideosToCreate;
     counterDisplay->setString("# of ofxVideoPlayerObjects CREATED: "+ ofToString(numCreatedVideoPlayerObjects));
   }
-  /*
+  
   // REMOVING for now since we're deleting with timer now.
   else if(key == 'K'){
     //Deletes all videos.
-    for(auto videoPlayer : videoPlayerCollection) {
+    
+    //SOSO video obj.
+//    for(auto videoPlayer : videoPlayerCollection) {
+//      delete videoPlayer;
+//    }
+//    videoPlayerCollection.clear();
+//    numCreatedVideoPlayerObjects = videoPlayerCollection.size();
+    
+    //
+    for(auto videoPlayer : jimVideoPlayerCollection) {
+//      videoPlayer->stop();
       delete videoPlayer;
     }
-    videoPlayerCollection.clear();
-    numCreatedVideoPlayerObjects = videoPlayerCollection.size();
+    jimVideoPlayerCollection.clear();
+    numCreatedVideoPlayerObjects = jimVideoPlayerCollection.size();
+    counterDisplay->setString("# of ofxVideoPlayerObjects DELETED: "+ ofToString(numCreatedVideoPlayerObjects));
+
+    //
     counterDisplay->setString("# of ofxVideoPlayerObjects DELETED: "+ ofToString(numCreatedVideoPlayerObjects));
   }
-   */
+  
    else if(key == 'l'){
     
     for(int i=0; i < numObjectsToCreate; i++) {

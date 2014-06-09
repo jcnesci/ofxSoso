@@ -20,6 +20,7 @@
 #include "ofxStateMachine.h"
 #include "ofxAnimation.h"
 #include "ofxScroller.h"
+#include "ofQTKitPlayer.h"
 
 //DEV_JC: memory usage testing: http://stackoverflow.com/questions/63166/how-to-determine-cpu-and-memory-consumption-from-inside-a-process
 #include<mach/mach.h>
@@ -91,5 +92,9 @@ public:
   int                       numCreatedStateMachines;
   int                       numCreatedAnimations;
   int                       numCreatedScrollers;
+  
+  // Testing obviousJim's video obj.
+  ofQTKitPlayer jimMovie;
+  vector<ofQTKitPlayer *>  jimVideoPlayerCollection;
 };
 
