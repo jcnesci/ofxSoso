@@ -431,3 +431,1163 @@
 [notice ] t_info.resident_size = 156962816
 [notice ] t_info.virtual_size = 948162560
 [notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-10-44-31-303
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 10:44:31 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 12.4412 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17088512
+[notice ] t_info.virtual_size = 818663424
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-10-48-18-915
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 10:48:18 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 14.7923 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17641472
+[notice ] t_info.virtual_size = 818630656
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-10-50-04-923
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 10:50:04 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 66.3604 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17219584
+[notice ] t_info.virtual_size = 818778112
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-10-52-40-074
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 10:52:40 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-10-52-53-372
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 10:52:53 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-10-52-57-864
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 10:52:57 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 5.23666 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17084416
+[notice ] t_info.virtual_size = 820244480
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-11-04-38-551
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:04:38 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 9.36635 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17096704
+[notice ] t_info.virtual_size = 818671616
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DELETING 1 VIDEO. Videos remaining: 119
+[notice ] Time passed = 60.0161 seconds
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 85504000
+[notice ] t_info.virtual_size = 1619787776
+
+
+--------------------------------------- 2014-06-09-11-07-13-128
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:07:13 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 7.75257 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17117184
+[notice ] t_info.virtual_size = 818671616
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-11-09-11-083
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:09:11 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 4.37259 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17088512
+[notice ] t_info.virtual_size = 819236864
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -----------------------------
+
+
+--------------------------------------- 2014-06-09-11-10-18-164
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:10:18 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 2.95732 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 16920576
+[notice ] t_info.virtual_size = 821501952
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+
+
+--------------------------------------- 2014-06-09-11-11-24-922
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:11:24 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 2.68635 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 17182720
+[notice ] t_info.virtual_size = 821276672
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ±~ofxVideoPlayerObject() -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+
+
+--------------------------------------- 2014-06-09-11-12-21-749
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:12:21 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 3.34489 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 16961536
+[notice ] t_info.virtual_size = 820256768
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer -------------- 1
+[notice ] ofxAVFVideoPlayer close() - ofQTKitPlayer ----------------------------- 2
+
+
+--------------------------------------- 2014-06-09-11-12-59-666
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:12:59 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 9.80085 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 16707584
+[notice ] t_info.virtual_size = 819724288
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-11-13-55-145
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:13:55 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 4.27249 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 16887808
+[notice ] t_info.virtual_size = 820387840
+[notice ] ----------------------------------------------------------------------------------------------------
+
+
+--------------------------------------- 2014-06-09-11-18-11-800
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] DESTRUCTOR TEST - START @ 11:18:11 AM - Mon 09/June/2014
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] ----------------------------------------------------------------------------------------------------
+[notice ] 120 VIDEOS CREATED @ 3.48802 seconds since program started.
+[notice ] Now starting deletion of 1 video every minute.
+[notice ] Video file is: fingers.mov
+[notice ] MEMORY STATS:
+[notice ] t_info.resident_size = 16932864
+[notice ] t_info.virtual_size = 819240960
+[notice ] ----------------------------------------------------------------------------------------------------

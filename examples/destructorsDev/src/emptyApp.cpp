@@ -261,18 +261,20 @@ void emptyApp::keyPressed  (int key){
     ofLog()<<"----------------------------------------------------------------------------------------------------";
     
     // SOSO's video obj.
-//    for(int i=0; i < numVideosToCreate; i++) {
-//      ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject(videoFile);
-//      videoPlayer->start();
-//      videoPlayerCollection.push_back(videoPlayer);
-//    }
-    // ObviousJim's video obj.
     for(int i=0; i < numVideosToCreate; i++) {
-      ofQTKitPlayer* jimMovie = new ofQTKitPlayer();
-      jimMovie->loadMovie(videoFile);
-      jimMovie->play();
-      jimVideoPlayerCollection.push_back(jimMovie);
+      ofxVideoPlayerObject* videoPlayer = new ofxVideoPlayerObject(videoFile);
+      videoPlayer->start();
+      videoPlayerCollection.push_back(videoPlayer);
     }
+
+    // ObviousJim's video obj.
+//    for(int i=0; i < numVideosToCreate; i++) {
+//      ofQTKitPlayer* jimMovie = new ofQTKitPlayer();
+//      jimMovie->loadMovie(videoFile);
+//      jimMovie->play();
+//      jimVideoPlayerCollection.push_back(jimMovie);
+//    }
+    
     numCreatedVideoPlayerObjects += numVideosToCreate;
     counterDisplay->setString("# of ofxVideoPlayerObjects CREATED: "+ ofToString(numCreatedVideoPlayerObjects));
   }
@@ -282,23 +284,21 @@ void emptyApp::keyPressed  (int key){
     //Deletes all videos.
     
     //SOSO video obj.
-//    for(auto videoPlayer : videoPlayerCollection) {
-//      delete videoPlayer;
-//    }
-//    videoPlayerCollection.clear();
-//    numCreatedVideoPlayerObjects = videoPlayerCollection.size();
-    
-    //
-    for(auto videoPlayer : jimVideoPlayerCollection) {
-//      videoPlayer->stop();
+    for(auto videoPlayer : videoPlayerCollection) {
       delete videoPlayer;
     }
-    jimVideoPlayerCollection.clear();
-    numCreatedVideoPlayerObjects = jimVideoPlayerCollection.size();
+    videoPlayerCollection.clear();
+    numCreatedVideoPlayerObjects = videoPlayerCollection.size();
     counterDisplay->setString("# of ofxVideoPlayerObjects DELETED: "+ ofToString(numCreatedVideoPlayerObjects));
-
-    //
-    counterDisplay->setString("# of ofxVideoPlayerObjects DELETED: "+ ofToString(numCreatedVideoPlayerObjects));
+    
+    // obviousJim video obj.
+//    for(auto videoPlayer : jimVideoPlayerCollection) {
+//      videoPlayer->close();
+////      delete videoPlayer;
+//    }
+//    jimVideoPlayerCollection.clear();
+//    numCreatedVideoPlayerObjects = jimVideoPlayerCollection.size();
+//    counterDisplay->setString("# of ofxVideoPlayerObjects DELETED: "+ ofToString(numCreatedVideoPlayerObjects));
   }
   
    else if(key == 'l'){

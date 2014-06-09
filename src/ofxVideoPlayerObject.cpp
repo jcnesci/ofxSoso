@@ -13,6 +13,9 @@ ofxVideoPlayerObject::ofxVideoPlayerObject(string iPath)
 
 // Destructor.
 ofxVideoPlayerObject::~ofxVideoPlayerObject(){
+
+  cout<<"~ofxVideoPlayerObject() -------------- 1"<<endl;
+  
   delete player;
   if(mShader){
     delete mShader;
