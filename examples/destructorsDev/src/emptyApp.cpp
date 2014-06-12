@@ -190,6 +190,7 @@ void emptyApp::keyPressed  (int key){
     for(int i=0; i < numObjectsToCreate; i++) {
       ofxLineSegmentObject* lineSegment = new ofxLineSegmentObject(1000);
       delete lineSegment;
+      cout<<"lineSegment ----- vertices = " << lineSegment->vertices.size() <<endl;
     }
     numCreatedLineSegments += numObjectsToCreate;
     counterDisplay->setString("# of ofxLineSegmentObjects: "+ ofToString(numCreatedLineSegments));
