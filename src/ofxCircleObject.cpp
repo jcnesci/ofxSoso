@@ -4,18 +4,12 @@
 ofxCircleObject::ofxCircleObject(int iResolution, float iOuterRadius, float iInnerRadius)
 {
 	resolution = iResolution;
-
 	outerRadius = iOuterRadius;
-	innerRadius = iInnerRadius;	
-
+	innerRadius = iInnerRadius;
 	numCirclePoints = 4*resolution;
-	circlePoints = new float[numCirclePoints];
-
-	
 }
 
 ofxCircleObject::~ofxCircleObject(){
-  delete[] circlePoints;
 }
 
 void ofxCircleObject::render()

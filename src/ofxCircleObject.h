@@ -41,6 +41,5 @@ public:
                   numCirclePoints;
 	float						outerRadius,
                   innerRadius;
-	float						*circlePoints;
 
 };
