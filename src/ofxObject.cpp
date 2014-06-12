@@ -100,13 +100,6 @@ ofxObject::~ofxObject()
     }
   }
   
-  //DEV_jc_1: this was here already, do we get rid of these unused vars?
-  // Destroy malloc'ed items.
-	//if (matrix != NULL) free(matrix);
-	//if (matrixTmp != NULL) free(matrixTmp);
-	//if (localMatrix != NULL) free(localMatrix);
-	//if (rotationMatrix != NULL) free(rotationMatrix);
-	//if (rotationMatrixTmp != NULL) free(rotationMatrixTmp);;
 	if (matrix) free(matrix); //LM 070612
 	if (localMatrix) free(localMatrix);
 }
