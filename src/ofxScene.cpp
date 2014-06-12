@@ -99,11 +99,30 @@ ofxScene::ofxScene(int w, int h)
 // Destructor.
 ofxScene::~ofxScene(){
   delete root;
-  //  delete defaultMaterial; //DEV: can't delete this or else my test crashes...
-  delete sortedObjects;     //DEV: hopefully we can delete a double pointer like a normal pointer, like this.
-  // how can i clear() this vector?
-  delete onTopObjects;      //DEV: hopefully we can delete a double pointer like a normal pointer, like this.
-  // how can i clear() this vector?
+
+  delete sortedObjects;     // to delete a double pointer, we must iterate & delete each contained pointer.
+
+  // - - - - - - - - -
+//  int size = root->collectNodes(OF_RENDER_TRANSPARENT, sortedObjects, 0, maxSortedObjects);
+//  for (unsigned int i = 0; i < size; i++){
+//    delete sortedObjects[i];
+//    cout<<"sortedObjects["<< i <<"] = "<< sortedObjects[i] <<endl;
+//  }
+//  delete sortedObjects;
+//  sortedObjects = NULL;
+  // - - - - - - - - -
+  
+  delete onTopObjects;
+  
+  // - - - - - - - - -
+//  int size = root->collectNodes(OF_RENDER_ONTOP, onTopObjects, 0, maxOnTopObjects);
+//  for (unsigned int i = 0; i < size; i++){
+//    delete onTopObjects[i];
+//    cout<<"onTopObjects["<< i <<"] = "<< onTopObjects[i] <<endl;
+//  }
+//  delete onTopObjects;
+//  onTopObjects = NULL;
+  // - - - - - - - - -
 }
 
 void ofxScene::update(float iTime)
