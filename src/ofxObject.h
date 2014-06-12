@@ -33,6 +33,7 @@
 #include "ofGraphics.h"
 #include "ofMath.h"
 #include "ofxMessage.h"
+#include "ofShader.h"
 //#include "ofxVectorMath.h" //OF7
 
 enum{
@@ -86,6 +87,14 @@ public :
   void							setTrans(ofVec3f vec);
 	void							setTrans(float x, float y, float z);
 	ofVec3f           getTrans();
+  
+  void            setX(float iX);
+  void            setY(float iY);
+  void            setZ(float iZ);
+  
+  float           getX();
+  float           getY();
+  float           getZ();
 	
   void							setRot(ofVec3f r);
 	void							setRot(float x, float y, float z);
@@ -103,8 +112,17 @@ public :
   virtual void      setColor(float r, float g, float b); // Applies object's current alpha value
 	virtual void			setColor(ofVec4f c);
   virtual void      setColor(ofColor c);
+  virtual void      setColor(string iHex);
 	ofVec4f						getColorVec4f();
   ofColor           getColor();
+    
+  void              setRed(float iRed);
+  void              setGreen(float iGreen);
+  void              setBlue(float iBlue);
+  
+  float             getRed();
+  float             getGreen();
+  float             getBlue();
 
 	void							setSpecialTransparency(bool iFlag);
 	bool							hasTransparency();
@@ -126,6 +144,14 @@ public :
 	ofVec3f						getWindowCoords();
 
   void							setLighting(bool iOnOff);
+  
+  // shaders
+  void  setShader(ofShader *iShader);
+  void  loadShader(string iShaderName);
+  void  loadShader(string iFragName, string iVertName);
+  virtual void  setShaderParams();
+  void  setEnableShaders(bool iSet);
+  ofShader* getShader(){ return shader; }
   
 	int								getID();
   bool              isObjectID(vector<GLuint> iIDs);
@@ -176,6 +202,11 @@ protected:
 
 	float							*localMatrix;
 	float							*matrix;
+  
+  // shader
+  ofShader  *shader;
+  bool  shaderEnabled;
+  
 
   vector <ofxObject *>			children;
 	vector <ofxObject *>			parents;
