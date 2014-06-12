@@ -44,9 +44,9 @@ ofxLetterTextObject::~ofxLetterTextObject()
 
 void ofxLetterTextObject::cleanupLetters()
 {
-	for(unsigned int i=0; i < letters.size(); i++){
-		removeChild(letters[i]);
-		delete(letters[i]);
+  for(auto letter : letters) {
+		removeChild(letter);
+		delete(letter);
 	}
 	letters.clear();
 }

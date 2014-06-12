@@ -53,7 +53,7 @@ void emptyApp::setup(){
   numCreatedStateMachines = 0;
   numCreatedAnimations = 0;
   numCreatedScrollers = 0;
-  
+  numCreatedLetterTextObjects = 0;
   
   ofLogToFile("logs_destructorTests.txt", true);    // OPTION : log console msgs to file.
   ofLog()<<"----------------------------------------------------------------------------------------------------";
@@ -418,6 +418,14 @@ void emptyApp::keyPressed  (int key){
     }
     numCreatedScrollers += numObjectsToCreate;
     counterDisplay->setString("# of ofxScroller: "+ ofToString(numCreatedScrollers));
+  } else if(key == 'v'){
+    
+    for(int i=0; i < numObjectsToCreate; i++) {
+      ofxLetterTextObject* lto = new ofxLetterTextObject(font16, "testing");
+      delete lto;
+    }
+    numCreatedLetterTextObjects += numObjectsToCreate;
+    counterDisplay->setString("# of ofxLetterTextObjects: "+ ofToString(numCreatedLetterTextObjects));
   }
   
   
