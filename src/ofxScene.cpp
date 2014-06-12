@@ -100,29 +100,14 @@ ofxScene::ofxScene(int w, int h)
 ofxScene::~ofxScene(){
   delete root;
 
-  delete sortedObjects;     // to delete a double pointer, we must iterate & delete each contained pointer.
-
-  // - - - - - - - - -
-//  int size = root->collectNodes(OF_RENDER_TRANSPARENT, sortedObjects, 0, maxSortedObjects);
-//  for (unsigned int i = 0; i < size; i++){
-//    delete sortedObjects[i];
-//    cout<<"sortedObjects["<< i <<"] = "<< sortedObjects[i] <<endl;
-//  }
-//  delete sortedObjects;
-//  sortedObjects = NULL;
-  // - - - - - - - - -
-  
+  // we don't wat to delete the object pointed to in the array since Scene doesn't own them, but we'll clear the array.
+  delete sortedObjects;
+  sortedObjects = NULL;
   delete onTopObjects;
+  onTopObjects = NULL;
   
-  // - - - - - - - - -
-//  int size = root->collectNodes(OF_RENDER_ONTOP, onTopObjects, 0, maxOnTopObjects);
-//  for (unsigned int i = 0; i < size; i++){
-//    delete onTopObjects[i];
-//    cout<<"onTopObjects["<< i <<"] = "<< onTopObjects[i] <<endl;
-//  }
-//  delete onTopObjects;
-//  onTopObjects = NULL;
-  // - - - - - - - - -
+  // DEV: old way of doing things that we must better one day...
+  free(defaultMatrix);
 }
 
 void ofxScene::update(float iTime)
